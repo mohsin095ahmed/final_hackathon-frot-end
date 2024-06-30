@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+    
+}
+body{
+    /* background-color:#f4c531; */
+}
+.border{
+    border: solid white;
+    border-radius: 20px;
+    background-color:  white;
+}
+.content-1{
+    margin: 30px 0px;
+    height: 350px;
+    width: 550px;
+    display: flex;
+        
+    align-items: center;
+}
+.content-1 .img{
+    height: 100%;
+    width: 250px;
+    
+}
+
+.content-1 .img img{
+    height: 300px;
+    width: 250px;
+    object-fit: contain;
+    margin: 10px 10px;
+}
+.content-1 .h1{
+   color:black;
+
+   margin-top: 10px;
+   margin-left: 15px;
+   margin-right: 10px;
+}
+.content-1 .h2{
+    color:black;
+ 
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 5px;
+ }
+.content-1 button{
+    background-color:#f4c531;
+    color: black;
+    height: 30px;
+    width: 250px;
+    border-radius: 30px;
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.data{
+    height: 300px;
+    width: 350px;
+   position: relative;    
+}
+.area{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.not{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    color: black;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: 700;
+    margin: 200px auto;
+}
+
+@media(min-width:350px) and (max-width:500px) {
+    .content-1{
+        margin: 30px 0px;
+       height: 500px;
+        width: 340px;
+        display: flex;
+        flex-direction: column;    
+        align-items: center;
+    }
+    
+    .content-1 button{
+        background-color:#f4c531;
+        color: black;
+        height: 30px;
+        width: 250px;
+        border-radius: 30px;
+        position: absolute;
+        top: 180px;
+        left: 45px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+ 
+.content-1 .img{
+    height: 250px;
+    width: 250px;
+    
+}
+
+.content-1 .img img{
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+    margin: 10px auto;
+    
+}
+.content-1 .h1{
+   color:black;
+   margin-top: 15px;
+}
+.content-1 .h2{
+    color:black;
+ 
+    margin-top: 15px;
+ }
+ .data{
+    height: 300px;
+    width: 340px;
+    position: relative;
+    text-align: center;    
+}   
+}

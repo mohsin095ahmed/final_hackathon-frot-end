@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-color:#f4c531; */
+}
+
+.Rec .image{
+    height: 300px;
+    width: 350px;
+    margin: 10px auto; 
+}
+.Rec .image img{
+    height: 300px;
+    width: 350px;
+    object-fit: contain;
+    
+   
+}
+
+.Rec{
+   border-radius: 40px;
+    background-color: white;
+    width: 60%;
+    margin: 10px auto;
+    margin-top: 100px;
+}
+.Rec .parent_1{
+    display: flex;
+    flex-direction: column;
+    border-radius: inherit;
+    width: 100%;
+    border: solid white;
+}
+.Rec .div-h1{
+    background-color:#f4c531;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+.Rec .div-h1 h1{
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 5px 0px;
+}
+
+.Rec .ul-parent{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.8em 1.1em;
+    list-style-position: inside;
+}
+.Rec .child{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 3px 10px;
+}
+.Rec .iner{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Rec .para{
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.Rec pre{
+    width: inherit;
+    white-space:pre-wrap;
+    text-align: justify;
+    padding: 10px 40px;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Rec .btn{
+    
+    margin: 20px 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.Rec .btn button{
+  background-color: #f4c531;
+  height: 40px;
+  width: 160px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.Rec .btn button a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    
+
+    
+}
+.Rec .btn button:hover{
+    transform: translateY(-5px) ;
+    
+} 
+@media(min-width:350px) and (max-width:500px) {
+    .Rec{
+        border-radius: 40px;
+         background-color: white;
+         width: 340px;
+         margin: 10px auto;
+         margin-top: 100px;
+     } 
+     .Rec .image{
+        height: 300px;
+        width: 330px;
+        margin: 10px auto; 
+    }
+    .Rec .image img{
+        height: 300px;
+        width: 330px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        object-fit: contain;
+        
+       
+    }
+    .Rec .div-h1{
+        background-color:#f4c531;
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .Rec .div-h1 h1{
+        font-weight: bolder;
+        font-size: 30px;
+        margin: 5px 0px;
+    }
+    .Rec .div-h1 h2{
+        margin-bottom: 5px;
+    }
+    
+    .Rec .ul-parent{
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: auto none;
+    gap: 0.8em 1.1em; */
+    list-style-position: inside;
+    }
+    .Rec .child{
+        width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 3px ;
+    }
+    .Rec .iner{
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .Rec .para{
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .Rec pre{
+        width: inherit;
+        white-space:pre-wrap;
+        text-align: justify;
+        padding: 10px 20px;
+        font-size: 20px;
+        line-height: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+}
