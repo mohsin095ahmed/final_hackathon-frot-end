@@ -58,7 +58,7 @@ console.log(email, firstName, lastName, password)
 // setEmail("/")
 // SetfirstName("")
 
-    const res = await axios.post("http://localhost:4000/api/user/", {
+    const res = await axios.post("https://final-hackthon-backend-erda.vercel.app/api/user/", {
    name : firstName + " "+ lastName,
       email:email,
       password:password,
